@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title tasklist
+    meta charset="utf-8"
+  body
+    h1 ToDo
+    ul
+    - @tasks.each do |task|
+    | li data-id= @tasks.id\
+      tasks.task\
+      p
+        tasks.detail
