@@ -1,7 +1,6 @@
 development:
   adapter:   mysql2
   database:  sinatracker
-  host:      localhost
+  host:      127.0.0.1
   username:  root
-  password:
-  encording: utf8
+  encoding:  utf8

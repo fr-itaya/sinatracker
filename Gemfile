@@ -9,6 +9,9 @@ gem "sinatra-reloader"
 
 gem "sinatra-activerecord"
 
+gem "slim"
+
 gem "activerecord"
 
-gem "ruby-mysql"
+gem "mysql2"
+
